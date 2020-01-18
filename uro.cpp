@@ -18,14 +18,20 @@ int main()
   cout<<"Program Kalkulator dan Turunan Polinom"<<endl;
   cout<<"______________________________________"<<endl;
   cout<<"1. Kalkulator \n" << "2. Turunan \n";
-  cout<<"Masukkan pilihan : ";
-
-  char n;
-  cin>>n; 
-
+  
+  bool input = true;
+  string n;
+  while (input)
+  {
+    cout<<"Masukkan pilihan : ";
+    cin>>n;
+    if (n == "1" || n == "2")
+      input = false;
+  }
+   
   cout<<"______________________________________"<<endl;
 
-  if (n == '1')
+  if (n == "1")
     calc();
   else
     difr();
