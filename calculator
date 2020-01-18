@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float x,y;
+    char o;
+    cout<<"Masukan Angka Pertama"<<endl;
+    cin>>x;
+    cout<<"Masukan Operator"<<endl;
+    cin>>o;
+    cout<<"Masukan Angka Kedua"<<endl;
+    cin>>y;
+
+    if(o == '+'){
+        cout<<x<<o<<y<<"="<<x+y;
+    }
+    else if(o == '-'){
+        cout<<x<<o<<y<<"="<<x-y;
+    }
+    else if(o == '/'){
+        cout<<x<<o<<y<<"="<<x/y;
+    }
+    else if(o == '*'){
+        cout<<x<<o<<y<<"="<<x*y;
+    }
+    else {
+        cout<<"input tidak sesuai";
+    };
+    return 0;
+}
