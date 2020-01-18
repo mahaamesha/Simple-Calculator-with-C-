@@ -8,5 +8,7 @@ Member	: Avima Haamesha (160 19 102) 		 as mahaamesha
 Deskripsi:
 Program kalkulator sederhana dengan C++ yang menangani operasi penjumlahan, pengurangan, perkalian, pembagian, dan turunan polinom. Program dibuat dalam rangka memenuhi Tugas2 : Programming.
 
+Program uro.cpp merupakan programm utama pada tugas ini dan gabungan dari program calculaotor.cpp dan turunanPolinomial.cpp.
+
 #TIMPROGRAMMING
 #SEKURO
