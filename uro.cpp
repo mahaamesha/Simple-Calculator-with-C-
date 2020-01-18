@@ -5,6 +5,34 @@ void calc()
 {
   //Program Kalkulator;
   cout<<"Kalkulator"<<endl;
+  cout<<"______________________________________"<<endl;
+  float x,y;
+  char o;
+  cout<<"Masukan Angka Pertama : ";
+  cin>>x;
+  cout<<"Masukan Operator      : ";
+  cin>>o;
+  cout<<"Masukan Angka Kedua   : ";
+  cin>>y;
+  
+  cout<<"______________________________________"<<endl;
+
+  if(o == '+'){
+    cout<<x<<o<<y<<" = "<<x+y;
+  }
+  else if(o == '-'){
+    cout<<x<<o<<y<<" = "<<x-y;
+  }
+  else if(o == '/'){
+    cout<<x<<o<<y<<" = "<<x/y;
+  }
+  else if(o == '*'){
+    cout<<x<<o<<y<<" = "<<x*y;
+  }
+  else {
+    cout<<"input tidak sesuai";
+  };
+  cout<<endl;
 }
 
 void difr()
